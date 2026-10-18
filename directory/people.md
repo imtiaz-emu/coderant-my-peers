@@ -8,5 +8,4 @@ Names need not be unique; GitHub usernames identify members. Contact details are
 
 | Member | GitHub | Current companies | Location | Last verified |
 | --- | --- | --- | --- | --- |
-
-No member profiles yet.
+| [Md Imtiaz Hossain Emu](../members/imtiaz-emu.json) | [@imtiaz-emu](https://github.com/imtiaz-emu) | [Ørsted Services Malaysia](../companies/orsted-services-malaysia.md) | Kuala Lumpur, Malaysia | 2026-10-18 |

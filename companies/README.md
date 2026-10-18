@@ -6,5 +6,5 @@ Find a company below, then open its current and former employee lists.
 
 | Company | Current members | Former members |
 | --- | --- | --- | --- |
-
-No member profiles yet. Be the first to contribute!
+| [Adzymic PTE Ltd.](./adzymic.md) | 0 | 1 |
+| [Ørsted Services Malaysia](./orsted-services-malaysia.md) | 1 | 0 |
