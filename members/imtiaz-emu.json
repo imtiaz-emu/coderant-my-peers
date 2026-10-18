@@ -1,0 +1,22 @@
+{
+  "github": "imtiaz-emu",
+  "name": "Md Imtiaz Hossain Emu",
+  "location": "Kuala Lumpur, Malaysia",
+  "contact": "https://www.linkedin.com/in/imtiazemu/",
+  "phoneNumber": "+601114254193",
+  "lastVerified": "2026-10-18",
+  "employment": [
+    {
+      "company": "orsted-services-malaysia",
+      "role": "Senior Software Engineer",
+      "status": "current",
+      "openToReferralRequests": true
+    },
+    {
+      "company": "adzymic",
+      "role": "Senior Software Engineer",
+      "status": "former",
+      "openToReferralRequests": false
+    }
+  ]
+}
