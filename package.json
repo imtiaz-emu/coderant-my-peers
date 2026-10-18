@@ -1,0 +1,16 @@
+{
+  "name": "coderant-my-peers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Git-only, member-maintained community employment directory.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node scripts/generate-directory.mjs",
+    "check": "node scripts/generate-directory.mjs --check",
+    "validate": "node scripts/generate-directory.mjs --validate",
+    "test": "node --test"
+  }
+}

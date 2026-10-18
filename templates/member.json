@@ -1,0 +1,22 @@
+{
+  "github": "your-github-username",
+  "name": "Your display name",
+  "location": "Kuala Lumpur, Malaysia",
+  "contact": "https://www.linkedin.com/in/your-profile/",
+  "phoneNumber": "Your phone number (optional; remove if not sharing)",
+  "lastVerified": "2026-10-18",
+  "employment": [
+    {
+      "company": "grab",
+      "role": "Software Engineer",
+      "status": "current",
+      "openToReferralRequests": false
+    },
+    {
+      "company": "shopee",
+      "role": "Software Engineer",
+      "status": "former",
+      "openToReferralRequests": false
+    }
+  ]
+}

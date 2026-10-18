@@ -1,0 +1,52 @@
+name: Update company directory
+
+on:
+  push:
+    paths:
+      - members/**
+      - companies.json
+      - scripts/generate-directory.mjs
+      - .github/workflows/update-directory.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: generate-company-directory
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Generate and commit directory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Regenerate after rebasing on concurrent member updates.
+          for attempt in 1 2 3; do
+            git pull --rebase
+            npm run generate
+            git add -- companies directory
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: update community directory" \
+                -m "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+            fi
+            # A rebased commit must still be pushed even if regeneration made no changes.
+            if git push; then
+              exit 0
+            fi
+          done
+          echo "::error::Could not publish generated directory after three attempts."
+          exit 1
