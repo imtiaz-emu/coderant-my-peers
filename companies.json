@@ -2,7 +2,13 @@
   "grab": {
     "name": "Grab"
   },
-  "shopee": {
-    "name": "Shopee"
+  "epam-systems": {
+    "name": "EPAM Systems"
+  },
+  "orsted-services-malaysia": {
+    "name": "Ørsted Services Malaysia"
+  },
+  "adzymic": {
+    "name": "Adzymic PTE Ltd."
   }
 }
