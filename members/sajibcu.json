@@ -1,0 +1,51 @@
+{
+  "github": "sajibcu",
+  "name": "Md Sajib Hosen",
+  "location": "Kuala Lumpur, Malaysia",
+  "contact": "https://www.linkedin.com/in/0sajib0/",
+  "lastVerified": "2026-10-19",
+  "employment": [
+    {
+      "company": "standard-chartered-bank",
+      "role": "Senior Software Development Engineer (contractor via DSS Software Solutions)",
+      "status": "current",
+      "openToReferralRequests": false
+    },
+    {
+      "company": "dss-software-solutions",
+      "role": "Senior Software Development Engineer",
+      "status": "current",
+      "openToReferralRequests": true
+    },
+    {
+      "company": "petronas",
+      "role": "Software Engineer (contractor via Skill Quotient Group)",
+      "status": "former",
+      "openToReferralRequests": false
+    },
+    {
+      "company": "skill-quotient-group",
+      "role": "Software Engineer",
+      "status": "former",
+      "openToReferralRequests": false
+    },
+    {
+      "company": "nitex",
+      "role": "Senior Software Engineer",
+      "status": "former",
+      "openToReferralRequests": false
+    },
+    {
+      "company": "emerging-it-bangladesh",
+      "role": "Software Engineer",
+      "status": "former",
+      "openToReferralRequests": false
+    },
+    {
+      "company": "micromac-techno-valley",
+      "role": "Junior Programmer",
+      "status": "former",
+      "openToReferralRequests": false
+    }
+  ]
+}
