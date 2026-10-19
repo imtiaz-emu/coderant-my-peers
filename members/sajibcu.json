@@ -6,10 +6,22 @@
   "lastVerified": "2026-10-19",
   "employment": [
     {
+      "company": "standard-chartered-bank",
+      "role": "Senior Software Development Engineer (contractor via DSS Software Solutions)",
+      "status": "current",
+      "openToReferralRequests": false
+    },
+    {
       "company": "dss-software-solutions",
       "role": "Senior Software Development Engineer",
       "status": "current",
       "openToReferralRequests": true
+    },
+    {
+      "company": "petronas",
+      "role": "Software Engineer (contractor via Skill Quotient Group)",
+      "status": "former",
+      "openToReferralRequests": false
     },
     {
       "company": "skill-quotient-group",
